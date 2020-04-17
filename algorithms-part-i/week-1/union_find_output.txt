@@ -1,0 +1,14 @@
+Enter number of objects: 
+Enter number of operations: 
+Connected 4 and 3
+Connected 3 and 8
+Connected 6 and 5
+Connected 9 and 4
+Connected 2 and 1
+Connected 5 and 0
+Connected 7 and 2
+Connected 6 and 1
+Checking for 8 and 9 true
+Checking for 1 and 0 true
+Checking for 6 and 7 true
+Checking for 9 and 6 false
