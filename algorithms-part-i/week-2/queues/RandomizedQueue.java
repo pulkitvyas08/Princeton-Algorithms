@@ -100,4 +100,30 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
     public Iterator<Item> iterator() {
         return new RanQueIter();
     }
+
+    private void checkState() {
+        System.out.format("Length: %d | n: %d | first: %d | last: %d\n", q.length, n, first, );
+    }
+
+    public static void main(String[] args) {
+
+        RandomizedQueue<Integer> rQue = new RandomizedQueue<Integer>();
+        int a;
+
+        rQue.checkState();
+        rQue.enqueue(4);
+        rQue.checkState();
+        rQue.enqueue(30);
+        rQue.checkState();
+        rQue.enqueue(31);
+        rQue.checkState();
+        rQue.isEmpty();
+        rQue.checkState();
+        rQue.enqueue(9);
+        rQue.checkState();
+        rQue.dequeue();
+        rQue.checkState();
+        rQue.enqueue(23);
+        rQue.checkState();
+    }
 }
